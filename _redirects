@@ -1,0 +1,2 @@
+# www.maximized-impact.org: every /research/* path lives on the research site (handoff v14, Homepage).
+/research/*  https://research.maximized-impact.org/:splat  301
