@@ -1,0 +1,19 @@
+/* Hello page (www.maximized-impact.org/hello). Page-specific rules only.
+   site.css is shared with isoh-research and stays untouched. */
+.hello { max-width: 608px; padding-bottom: 3.5rem; }
+.hello-intro { margin: 2rem 0 0; max-width: none; }
+.hello-sec { margin-top: 2rem; display: flex; flex-direction: column; gap: 14px; }
+.hello-label { font-family: var(--mono); font-weight: 400; font-size: 12.5px; line-height: 1.5; letter-spacing: .5px; text-transform: uppercase; color: var(--muted); margin: 0; }
+.hello-card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+.hello-card h3 { font-family: var(--serif); font-weight: 700; font-size: 24px; line-height: 1.25; color: var(--ink); margin: 0; }
+.hello-card p { margin: 0; max-width: none; font-size: 1rem; line-height: 1.6; }
+.hello-card .small { font-size: 14px; line-height: 1.5; }
+.hello-head { display: flex; align-items: center; gap: 12px; }
+.hello-head img { width: 40px; height: 40px; object-fit: contain; flex-shrink: 0; }
+.hello-card .btn, .hello-card .btn-outline { justify-content: center; min-height: 48px; padding: 0 22px; font-size: 15px; text-align: center; }
+.hello-links { display: flex; flex-wrap: wrap; column-gap: 24px; list-style: none; }
+.hello-links a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 500; font-size: 15px; }
+.hello-card .hello-logo { background: #FDF6F0; border-radius: 14px; padding: 14px; display: flex; justify-content: center; }
+.hello-logo img { width: 100%; max-width: 230px; height: auto; }
+.hello-card .hello-doi { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.hello-card .hello-mail { text-align: center; }
